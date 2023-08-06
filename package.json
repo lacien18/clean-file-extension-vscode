@@ -8,7 +8,7 @@
   "icon": "/icon.png",
   "keywords":["dart","flutter","clean","clean-file","file-clean","richar correa","clean file","clean file generate","generate"],
   "engines": {
-    "vscode": "^1.81.0"
+    "vscode": "^1.13.0"
   },
   "categories": [
     "Other"
