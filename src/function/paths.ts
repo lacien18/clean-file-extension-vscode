@@ -4,6 +4,7 @@ import contents from "../content/contents";
 //GENERAL PATH
 const lib = `lib`;
 const app = `${lib}/app.dart`;
+const assets = `assets/assets_here.md`;
 const main = `${lib}/main.dart`;
 const fonts = "fonts/font_here.md";
 const config = "config/dev.json";
