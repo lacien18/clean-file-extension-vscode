@@ -1,4 +1,5 @@
-const simpleApiClient =`class SimpleApiClient extends BaseHttpClient<dynamic> {
+const simpleApiClient =`
+class SimpleApiClient extends BaseHttpClient<dynamic> {
     SimpleApiClient() : super(DefaultResponseInterceptor());
   
     //final UserPreferences _preferences = sl();

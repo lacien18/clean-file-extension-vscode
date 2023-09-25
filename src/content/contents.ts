@@ -40,6 +40,10 @@ import simpleApiClient from "./data/network/client/simple_api_client";
 import apiRoutes from "./data/network/constants/api_routes";
 // - INTERCEPTOR
 import interceptor from "./data/network/interceptor/base_response_interceptor";
+// - ENTITIES
+import buildFlavor from "./entities/build_flavor";
+// - TYPEFEEDBACK
+import typeFeedBack from "./entities/type_feedback";
 
 export default {
   services,
@@ -71,4 +75,6 @@ export default {
   simpleApiClient,
   apiRoutes,
   interceptor,
+  buildFlavor,
+  typeFeedBack,
 };
