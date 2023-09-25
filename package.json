@@ -2,7 +2,7 @@
   "name": "cleanfile",
   "displayName": "Clean File",
   "description": "Extension para aplicar los archivos basicos de basados en Arquitectura Limpia",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "publisher":"CleanFile",
   "repository":"https://github.com/lacien18/clean-file-extension-vscode.git",
   "icon": "/icon.png",
@@ -36,7 +36,7 @@
     "test": "node ./out/test/runTest.js"
   },
   "devDependencies": {
-    "@types/vscode": "^1.81.0",
+    "@types/vscode": "^1.13.0",
     "@types/glob": "^8.1.0",
     "@types/mocha": "^10.0.1",
     "@types/node": "20.2.5",

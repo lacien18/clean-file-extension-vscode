@@ -4,7 +4,7 @@ import contents from "../content/contents";
 //GENERAL PATH
 const lib = `lib`;
 const fonts = "fonts/font_here.md";
-const config = "config/font_here.md";
+const config = "config/dev.json";
 
 const core = `${lib}/core`;
 //CORE - DATA
@@ -25,7 +25,9 @@ const cSimpleApi = `${nClient}/simple_api_client.dart`;
 //CORE - DOMAIN
 const cDomain = `${core}/domain`;
 const cEntitie = `${cDomain}/entities`;
-const dModels = `${cEntitie}/models/build_flavor.dart`;
+const dModelsBuildF = `${cEntitie}/models/build_flavor.dart`;
+const dModelsTypeFeed = `${cEntitie}/models/type_feedback.dart`;
+
 
 const dRepositories = `${cDomain}/repositories/repositories_here.md`;
 //CORE - PROVIDERS
@@ -124,7 +126,9 @@ const gPaths = [
   new PathModel(cProviders, null),
 
 
-  new PathModel(dModels, contents.buildFlavor),
+  new PathModel(dModelsBuildF, contents.buildFlavor),
+  new PathModel(dModelsTypeFeed, contents.typeFeedBack),
+
   new PathModel(dRepositories, null),
 ];
 
