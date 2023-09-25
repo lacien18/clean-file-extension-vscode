@@ -6,8 +6,8 @@ import repository from "./repositories/repository";
 import repositoryImpl from "./repositories/repository_impl";
 //PROVIDER - DI
 import notifier from "./provider/notifier";
-import dependenciesI from "./provider/dependencies_injection";
-import providerI from "./provider/provider_injection";
+import dependenciesI from "./provider/providers";
+import providerI from "./provider/notifiers_providers";
 //CONFIG
 import appConfig from "./config/app_config";
 import flavor from "./config/flavor";

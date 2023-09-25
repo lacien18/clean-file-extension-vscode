@@ -1,4 +1,8 @@
-const  notifier = `class Notifier extends StateNotifier<StateApp<dynamic>> {
+const  notifier = `
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+
+class Notifier extends StateNotifier<StateApp<dynamic>> {
     Notifier()
         : super(const StateApp.initial());
   

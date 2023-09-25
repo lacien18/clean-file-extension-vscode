@@ -1,4 +1,6 @@
 const dependenciesInjection = `
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
 
 abstract class Providers {
 

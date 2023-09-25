@@ -8,11 +8,11 @@ void main() async {
   BlockScreen.blockScreen;
 
   runApp(
-    ProviderScope(
+    const ProviderScope(
    //   overrides: [
    //     DI.sharedPreferences.overrideWithValue(sharedPrefs),
    //   ],
-      child: const App(),
+      child: App(),
     ),
   );
 }`;

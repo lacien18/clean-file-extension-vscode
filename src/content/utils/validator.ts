@@ -39,8 +39,7 @@ abstract class PatternValidators {
 
   static bool isValidatePassword(String? value) {
     if (value != null && value.isNotEmpty) {
-      const pattern =
-          r'(?=^.{6,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z])(?=.*[!@.#$&*]).*$';
+      const pattern =  r'(?=^.{6,}$)((?=.*d)|(?=.*W+))(?![.])(?=.*[A-Z])(?=.*[a-z])(?=.*[!@.#$&*]).*$';
 
       final regExp = RegExp(pattern);
       return regExp.hasMatch(value);

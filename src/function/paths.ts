@@ -10,6 +10,8 @@ const fonts = "fonts/font_here.md";
 const config = "config/dev.json";
 
 const core = `${lib}/core`;
+//CORE - THEME
+const cTheme = `${core}/theme/theme.dart`;
 //CORE - DATA
 const cData = `${core}/data`;
 //CORE - DATA - PLATFORM
@@ -33,7 +35,7 @@ const dModelsTypeFeed = `${cEntitie}/models/type_feedback.dart`;
 
 const dRepositories = `${cDomain}/repositories/repositories_here.md`;
 //CORE - PROVIDERS
-const cProviders = `${core}/providers/global_notifier.dart`;
+const cProviders = `${core}/notifiers/global_notifier_here.md`;
 //CORE - ROUTE
 const cRoute = `${core}/routes`;
 const rRouter = `${cRoute}/router.dart`;
@@ -53,7 +55,7 @@ const uBlockOrientation = `${cUtils}/block_orientation.dart`;
 const uBaseRepository = `${cUtils}/base_repository.dart`;
 const uStateApp = `${cUtils}/state_app/state_app.dart`;
 //CORE - WIDGETS
-const cWidgets = `${core}/widgets/widgets.dart`;
+const cWidgets = `${core}/widgets/widgets_here.md`;
 //CORE - ERROR
 const cError = `${core}/error`;
 const eErrorMessages = `${cError}/error_messages.dart`;
@@ -64,8 +66,8 @@ const configApp = `${core}/config`;
 const cFile = `${configApp}/app_config.dart`;
 //
 const di = `${lib}/di`;
-const inyectionDependencies = `${di}/denpendencies_injection.dart`;
-const providerI = `${di}/provider_injection.dart`;
+const inyectionDependencies = `${di}/providers.dart`;
+const providerI = `${di}/notifiers_providers.dart`;
 //
 const feature = `${lib}/feature`;
 const home = `${feature}/file`;
@@ -80,11 +82,13 @@ const hDataService = `${hDataServices}/services.dart`;
 const hDataServiceI = `${hDataServices}/services_impl.dart`;
 //PATH HOME
 const hPresentation = `${home}/presentation`;
-const hPresentationProvider = `${hPresentation}/providers/notifier.dart`;
+const hPresentationProvider = `${hPresentation}/notifiers/notifier.dart`;
 const hPresentationWidget = `${hPresentation}/widget/widget.dart`;
 const hPresentationView = `${hPresentation}/view/view.dart`;
 
 const gPaths = [
+  new PathModel(assets, null),
+  //
   new PathModel(app, contents.app),
   new PathModel(main, contents.main),
   //
@@ -129,10 +133,12 @@ const gPaths = [
 
   //
   new PathModel(cProviders, null),
-
+  //
+  new PathModel(cTheme, contents.theme),
+  //
   new PathModel(dModelsBuildF, contents.buildFlavor),
   new PathModel(dModelsTypeFeed, contents.typeFeedBack),
-
+  //
   new PathModel(dRepositories, null),
 ];
 

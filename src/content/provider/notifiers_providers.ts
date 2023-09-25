@@ -1,5 +1,7 @@
 const providerInjection = `
-class Notifiers {
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+class NotifiersProviders {
 
     static final notifier =
         StateNotifierProvider<ModelNotifier, StateApp<dynamic>>(
