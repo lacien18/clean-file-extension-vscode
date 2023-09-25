@@ -19,8 +19,6 @@ Extension created to speed up the creation of the basic files used in the clean 
 
 ### 0.0.2
 
-👌 ADD:
-
 👉 file flavor
 
 👉 remake state_app 
