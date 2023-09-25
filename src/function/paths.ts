@@ -113,7 +113,6 @@ const gPaths = [
   new PathModel(eErrorMessages, contents.errorMessages),
   //
   new PathModel(cFile, contents.appConfig),
-  new PathModel(cFlavor, contents.flavor),
   //
   new PathModel(inyectionDependencies, contents.dependenciesI),
   new PathModel(providerI, contents.providerI),
