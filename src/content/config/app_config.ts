@@ -1,4 +1,8 @@
-const appConfig = `class AppConfig {
+const appConfig = `
+import 'dart:convert';
+import 'package:flutter/services.dart';
+
+class AppConfig {
     final String? mainApiUrl;
   
     static AppConfig? _instance;

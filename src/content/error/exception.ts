@@ -1,9 +1,10 @@
-const exception = `import 'package:freezed_annotation/freezed_annotation.dart';
+const exception = `
+import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'exception.freezed.dart';
 
 @freezed
-abstract class AppException implements _AppException {
+abstract class AppException implements _$AppException {
 const AppException._();
 const factory AppException.network() = _Network;
 const factory AppException.unexpected() = _Unexpected;

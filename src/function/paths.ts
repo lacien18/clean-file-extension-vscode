@@ -4,6 +4,8 @@ import contents from "../content/contents";
 //GENERAL PATH
 const lib = `lib`;
 const fonts = "fonts/font_here.md";
+const config = "config/font_here.md";
+
 const core = `${lib}/core`;
 //CORE - DATA
 const cData = `${core}/data`;
@@ -22,7 +24,9 @@ const cBasehttp = `${nClient}/base_http_client.dart`;
 const cSimpleApi = `${nClient}/simple_api_client.dart`;
 //CORE - DOMAIN
 const cDomain = `${core}/domain`;
-const dEntities = `${cDomain}/entities/entities_here.md`;
+const cEntitie = `${cDomain}/entities`;
+const dModels = `${cEntitie}/models/build_flavor.dart`;
+
 const dRepositories = `${cDomain}/repositories/repositories_here.md`;
 //CORE - PROVIDERS
 const cProviders = `${core}/providers/global_notifier.dart`;
@@ -54,7 +58,6 @@ const eException = `${cError}/exception.dart`;
 //CORE - CONFIG APP
 const configApp = `${core}/config`;
 const cFile = `${configApp}/app_config.dart`;
-const cFlavor = `${configApp}/flavor.json`;
 //
 const di = `${lib}/di`;
 const inyectionDependencies = `${di}/denpendencies_injection.dart`;
@@ -110,15 +113,18 @@ const gPaths = [
   new PathModel(eErrorMessages, contents.errorMessages),
   //
   new PathModel(cFile, contents.appConfig),
-  new PathModel(cFlavor, contents.flavor),
   //
   new PathModel(inyectionDependencies, contents.dependenciesI),
   new PathModel(providerI, contents.providerI),
   //
   new PathModel(fonts, null),
+  new PathModel(config, contents.flavor),
+
   //
   new PathModel(cProviders, null),
-  new PathModel(dEntities, null),
+
+
+  new PathModel(dModels, contents.buildFlavor),
   new PathModel(dRepositories, null),
 ];
 
