@@ -11,23 +11,34 @@ Extension created to speed up the creation of the basic files used in the clean 
 
 👉 clean file generate feature: create the entire folder structure for the feature path
 
+
 ## 🗒️ Release Notes 🗒️
 
-### 0.0.1
+### 0.0.5
 
-👌 first pitch
+👌 snipptes
 
-### 0.0.2
+## primero crea el archivo .dart y luego podras usar los siguientes comandos
+first create the .dart file and then you can use the following commands:
+  
+  🟢 services: to create the service interface
 
-👉 file flavor
+  🟢 services impl: to create the service implementation interface
 
-👉 remake state_app 
+  🟢 repository: to create the repository interface
+  
+  🟢 repository impl: to create the repository implementation interface
 
-👉 remake error_messages
+  🟢 repository impl: to create the repository implementation interface
+  
+  🟢 add packages: to add the suggested packages
 
-👉 remake provider
+  🟢 add dependencies: to add the suggested dependencies
 
-👉 remake dependencies_injections
+
+
+
+
 
 
 
