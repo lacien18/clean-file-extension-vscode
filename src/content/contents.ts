@@ -44,6 +44,10 @@ import interceptor from "./data/network/interceptor/base_response_interceptor";
 import buildFlavor from "./entities/build_flavor";
 // - TYPEFEEDBACK
 import typeFeedBack from "./entities/type_feedback";
+// - MAIN
+import main from "./main/main";
+// - APP
+import app from "./main/app";
 
 export default {
   services,
@@ -77,4 +81,6 @@ export default {
   interceptor,
   buildFlavor,
   typeFeedBack,
+  main,
+  app,
 };

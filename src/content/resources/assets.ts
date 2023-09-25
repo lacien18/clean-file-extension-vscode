@@ -3,3 +3,5 @@ const assets = `abstract class Assets {
   } `;
 
   export default assets;
+
+  
