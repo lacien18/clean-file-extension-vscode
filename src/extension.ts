@@ -1,8 +1,10 @@
 import * as vscode from "vscode";
 import generate from "./function/generate_folders";
 import generateFeature from "./function/generate_feature";
+import { SnippetString } from "vscode";
 
 export function activate(context: vscode.ExtensionContext) {
+
   let cfGenerate = vscode.commands.registerCommand(
     "clean-file.generate",
     () => {
@@ -21,8 +23,8 @@ export function activate(context: vscode.ExtensionContext) {
     }
   );
 
+
   context.subscriptions.push(cfGenerate);
   context.subscriptions.push(cfGenerateFeature);
 }
 
-export function deactivate() {}

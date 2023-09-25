@@ -20,6 +20,9 @@ abstract class RouterApp {
         ),
       ]
     );
+
+  static GoRouter get router => _router;
+
  }`  ;
 
  export default router;

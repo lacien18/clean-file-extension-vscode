@@ -1,0 +1,13 @@
+{
+	"REPOSITORY": {
+		"prefix": "repository",
+		"body": [
+			"abstract class ${1}Repository {",
+			"",
+			" Future<Either<Failure, ModelDTO>> metodo();",
+			"",
+			"}"
+		],
+		"description": "create repository"
+	}
+}

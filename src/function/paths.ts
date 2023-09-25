@@ -3,6 +3,8 @@ import contents from "../content/contents";
 
 //GENERAL PATH
 const lib = `lib`;
+const app = `${lib}/app.dart`;
+const main = `${lib}/main.dart`;
 const fonts = "fonts/font_here.md";
 const config = "config/dev.json";
 
@@ -27,7 +29,6 @@ const cDomain = `${core}/domain`;
 const cEntitie = `${cDomain}/entities`;
 const dModelsBuildF = `${cEntitie}/models/build_flavor.dart`;
 const dModelsTypeFeed = `${cEntitie}/models/type_feedback.dart`;
-
 
 const dRepositories = `${cDomain}/repositories/repositories_here.md`;
 //CORE - PROVIDERS
@@ -83,6 +84,9 @@ const hPresentationWidget = `${hPresentation}/widget/widget.dart`;
 const hPresentationView = `${hPresentation}/view/view.dart`;
 
 const gPaths = [
+  new PathModel(app, contents.app),
+  new PathModel(main, contents.main),
+  //
   new PathModel(dPlatform, null),
   new PathModel(dServices, null),
   //
@@ -124,7 +128,6 @@ const gPaths = [
 
   //
   new PathModel(cProviders, null),
-
 
   new PathModel(dModelsBuildF, contents.buildFlavor),
   new PathModel(dModelsTypeFeed, contents.typeFeedBack),

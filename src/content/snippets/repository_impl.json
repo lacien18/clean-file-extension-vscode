@@ -1,0 +1,24 @@
+{
+	"REPOSITORY IMPLEMENTS": {
+		"prefix": "repository impl",
+		"body": [
+			"class ${1}RepositoryImpl extends BaseRepository implements ${1}Repository {",
+			"",
+			" final NameServices _nameService;",
+			"",
+			"  ${1}RepositoryImpl(this._nameService);",
+			"",
+			"  @override",
+			"  Future<Either<Failure,ModelDTO>> metodo() {",
+			"",
+			"      return runCatching(() async {",
+			"       final _success = await _nameService.metodo();",
+			"         return Right(_success);",
+			"       });",
+			"",
+			 "}",
+"}"
+		],
+		"description": "create repository implement interface, required a install Either"
+	}
+}

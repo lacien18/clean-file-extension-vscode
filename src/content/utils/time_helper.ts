@@ -1,4 +1,7 @@
-const timeHelper = `abstract class TimeHelper {
+const timeHelper = `
+import 'package:intl/intl.dart';
+
+abstract class TimeHelper {
     static const String pattern = 'dd/MM/yyyy';
   
     static String formatDateTime(DateTime? dateTime) {

@@ -1,0 +1,12 @@
+{
+	"ADD DEPENDENCIES": {
+		"prefix": "add dependencies",
+		"body": [
+			"// Opcional para inyección de dependencias: injectable_generator: ^1.5.3",
+			"freezed: ^1.1.1",
+			"build_runner: ^2.1.7",
+			""
+		],
+		"description": "add dependencies"
+	}
+}

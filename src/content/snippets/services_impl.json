@@ -1,0 +1,22 @@
+{
+	"SERVICES IMPLEMENTS": {
+		"prefix": "services impl",
+		"body": [
+			"class ${1}ServicesImpl implements ${1}Services {",
+			"",
+			"",
+			"  ${1}ServicesImpl();",
+			"",
+			"  @override",
+			"  Future<${2}> metodo() {",
+			"",
+			"// agrega aqui la peticion de alguna api",
+			"       final _success = await peticion;",
+			"         return _success;",
+			"",
+			"}",
+			"}"
+		],
+		"description":"create services implemente interface"
+	}
+}

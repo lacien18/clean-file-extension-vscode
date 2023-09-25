@@ -1,0 +1,13 @@
+{
+	"SERVICES": {
+		"prefix": "services",
+		"body": [
+			"abstract class ${1}Services {",
+			"",
+			" Future<${2}> metodo();",
+			"",
+			"}"
+		],
+		"description": "create services interface"
+	}
+}

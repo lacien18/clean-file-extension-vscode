@@ -2,20 +2,57 @@
   "name": "cleanfile",
   "displayName": "Clean File",
   "description": "Extension para aplicar los archivos basicos de basados en Arquitectura Limpia",
-  "version": "0.0.4",
-  "publisher":"CleanFile",
-  "repository":"https://github.com/lacien18/clean-file-extension-vscode.git",
+  "version": "0.0.5",
+  "publisher": "CleanFile",
+  "repository": "https://github.com/lacien18/clean-file-extension-vscode.git",
   "icon": "/icon.png",
-  "keywords":["dart","flutter","clean","clean-file","file-clean","richar correa","clean file","clean file generate","generate"],
+  "keywords": [
+    "dart",
+    "flutter",
+    "clean",
+    "clean-file",
+    "file-clean",
+    "richar correa",
+    "clean file",
+    "clean file generate",
+    "generate"
+  ],
   "engines": {
     "vscode": "^1.13.0"
   },
   "categories": [
-    "Other"
+    "Other",
+    "Snippets"
   ],
   "activationEvents": [],
   "main": "./out/extension.js",
   "contributes": {
+    "snippets": [
+      {
+        "language": "dart",
+        "path": "./src/content/snippets/services.json"
+      },
+      {
+        "language": "dart",
+        "path": "./src/content/snippets/services_impl.json"
+      },
+      {
+        "language": "dart",
+        "path": "./src/content/snippets/repository.json"
+      },
+      {
+        "language": "dart",
+        "path": "./src/content/snippets/repository_impl.json"
+      },
+      {
+        "language": "dart",
+        "path": "./src/content/snippets/add_packages.json"
+      },
+      {
+        "language": "dart",
+        "path": "./src/content/snippets/add_dependencies.json"
+      }
+    ],
     "commands": [
       {
         "command": "clean-file.generate",
