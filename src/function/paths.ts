@@ -4,7 +4,7 @@ import contents from "../content/contents";
 //GENERAL PATH
 const lib = `lib`;
 const fonts = "fonts/font_here.md";
-const config = "config/font_here.md";
+const config = "config/dev.json";
 
 const core = `${lib}/core`;
 //CORE - DATA
@@ -125,6 +125,8 @@ const gPaths = [
 
 
   new PathModel(dModels, contents.buildFlavor),
+  new PathModel(dModels, contents.typeFeedBack),
+
   new PathModel(dRepositories, null),
 ];
 
