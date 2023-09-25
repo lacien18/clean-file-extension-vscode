@@ -1,0 +1,21 @@
+{
+    "ADD ASSETS": {
+        "prefix": "add assets",
+        "body": [
+            "assets:",
+            "   - assets/",
+            "   - config/",
+            "   - fonts/",
+            "fonts:",
+            "   - family: Montserrat",
+            "       fonts:",
+            "           - asset: fonts/Montserrat-Regular.otf",
+            "           weight: 400",
+            "           - asset: fonts/Montserrat-Bold.otf",
+            "           weight: 700",
+            "           - asset: fonts/Montserrat-SemiBold.otf",
+            "           weight: 500"
+        ],
+        "description": "add dependencies"
+    }
+}

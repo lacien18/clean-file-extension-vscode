@@ -35,6 +35,9 @@ first create the .dart file and then you can use the following commands:
 
   🟢 add dependencies: to add the suggested dependencies
 
+  🟢 add assets: to add the assets and fonts files to the yaml
+
+
 
 
 

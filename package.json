@@ -51,6 +51,10 @@
       {
         "language": "dart",
         "path": "./src/content/snippets/add_dependencies.json"
+      },
+      {
+        "language": "dart",
+        "path": "./src/content/snippets/add_assets.json"
       }
     ],
     "commands": [
