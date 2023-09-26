@@ -2,7 +2,7 @@
   "name": "cleanfile",
   "displayName": "Clean File",
   "description": "Extension para aplicar los archivos basicos de basados en Arquitectura Limpia",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "publisher": "CleanFile",
   "repository": "https://github.com/lacien18/clean-file-extension-vscode.git",
   "icon": "/icon.png",
@@ -30,31 +30,31 @@
     "snippets": [
       {
         "language": "dart",
-        "path": "./src/content/snippets/services.json"
+        "path": "./out/content/snippets/services.json"
       },
       {
         "language": "dart",
-        "path": "./src/content/snippets/services_impl.json"
+        "path": "./out/content/snippets/services_impl.json"
       },
       {
         "language": "dart",
-        "path": "./src/content/snippets/repository.json"
+        "path": "./out/content/snippets/repository.json"
       },
       {
         "language": "dart",
-        "path": "./src/content/snippets/repository_impl.json"
+        "path": "./out/content/snippets/repository_impl.json"
       },
       {
         "language": "dart",
-        "path": "./src/content/snippets/add_packages.json"
+        "path": "./out/content/snippets/add_packages.json"
       },
       {
         "language": "dart",
-        "path": "./src/content/snippets/add_dependencies.json"
+        "path": "./out/content/snippets/add_dependencies.json"
       },
       {
         "language": "dart",
-        "path": "./src/content/snippets/add_assets.json"
+        "path": "./out/content/snippets/add_assets.json"
       }
     ],
     "commands": [
